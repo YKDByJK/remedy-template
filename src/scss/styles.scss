@@ -1,4 +1,9 @@
 @import 'config/variables';
+@import "mixins/mixins.scss";
 @import "helpers/normalize.scss";
 
 @import "sections/index.scss";
+
+// Components
+@import "components/grid/grid.scss";
+@import "components/button/button.scss";
