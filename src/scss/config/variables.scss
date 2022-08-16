@@ -1,16 +1,24 @@
 // Typography
-$font-family: 'Inter', sans-serif;
+$font-family: 'Manrope', sans-serif;
 $font-size: 1rem;
+$font-size-sm: .85rem;
+$font-size-lg: 1.25rem;
 $font-extrabold: 800;
+$font-semibold: 600;
 $font-bold: 700;
 $font-regular: 400;
 $font-light: 300;
 
 // Colours
-$color-black: #18191F;
-$color-primary: #8C30F5;
+$color-black: #1d2d35;
+$color-primary: #FA496E;
 $color-gray: #8391A7;
+$color-neautral: #f9fafb;
 $color-turquoise: #2EC5CE;
+
+// Gradients
+
+$gradient-primary: radial-gradient(54.35% 54.35% at 13.82% 7%, #162051 0%, #161B32 100%);
 
 // Spacing
 $spacing-xsm: .375rem;

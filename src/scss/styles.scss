@@ -6,4 +6,15 @@
 
 // Components
 @import "components/grid/grid.scss";
+@import "components/accordion/accordion.scss";
 @import "components/button/button.scss";
+@import "components/card/card.scss";
+@import "components/navbar/navbar.scss";
+
+//Utilies
+
+@import "utilities/animation.scss";
+@import "utilities/color.scss";
+@import "utilities/spacing.scss";
+@import "utilities/alignment.scss";
+@import "utilities/typography.scss";
