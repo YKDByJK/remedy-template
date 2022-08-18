@@ -36,3 +36,9 @@
         }
     }
 }
+
+@media all and (max-width: $screen-sm) {
+    .card {
+        margin-top: $spacing-md;
+    }
+  }

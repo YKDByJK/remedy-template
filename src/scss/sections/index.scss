@@ -225,6 +225,10 @@ h1, h2, h3, h4, h5, h6 {
           margin-bottom: $spacing-sm;
         }
       }
+
+      .row {
+        display: block!important;
+      }
     }
   }
 
@@ -241,6 +245,12 @@ h1, h2, h3, h4, h5, h6 {
     }
   }
 
+  @media all and (max-width: $screen-sm) {
+    #intro {
+      padding: $spacing-xl 0;
+    }
+  }
+
   // Features
 
   #features {
@@ -254,11 +264,23 @@ h1, h2, h3, h4, h5, h6 {
     }
   }
 
+  @media all and (max-width: $screen-sm) {
+    #features {
+      padding: 0 0 $spacing-xl 0;
+    }
+  }
+
   // Pricing
 
   #pricing {
     padding: $spacing-xxl 0;
     background: $color-neautral;
+  }
+
+  @media all and (max-width: $screen-sm) {
+    #pricing {
+      padding: $spacing-xl 0;
+    }
   }
 
   // CTA
@@ -290,6 +312,7 @@ h1, h2, h3, h4, h5, h6 {
           color: $color-gray;
           text-decoration: none;
           font-size: $font-size-sm;
+          transition: all 0.3s ease-in-out;
 
           &:hover {
             color: $color-primary;
