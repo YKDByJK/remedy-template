@@ -6,6 +6,21 @@
     padding-bottom: $spacing-md;
     padding-top: $spacing-md;
 
+    .navbar-toggle {
+        display: none;
+        background: transparent;
+        color: $color-primary;
+        border: none;
+        font-size: $font-size-lg;
+        margin: 0 auto;
+        cursor: pointer;
+        transition: color 0.15s ease-in-out;
+
+        &:hover {
+            color: #fff;
+        }
+    }
+
     ul {
         list-style: none;
         margin: 0;
@@ -43,12 +58,28 @@
 @media all and (max-width: 600px) {
  
     #navbar {
-        flex-direction: column;
+        flex-direction: unset;
+        display: block;
+
+        .navbar-toggle {
+            display: block;
+            position: absolute;
+            top: $spacing-md;
+            right: $spacing-md;
+        }
+
         nav {
             text-align: center;
+            width: 100%;
             ul {
                 flex-direction: column;
+                display: none;
+
+                &.active {
+                    display: block;
+                }
                 li {
+                    display: block;
                     &.active {
                         &:before {
                             display: none;
