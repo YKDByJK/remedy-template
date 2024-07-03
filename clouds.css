@@ -55,6 +55,7 @@ animation: moveCloudfromr 60s linear infinite;
     .stara, .starb, .starc, .stard {
         width: 100%; /* keep full width */
         filter: drop-shadow(0px 0px 15px rgba(0, 0, 0, 0.178)); /* reduce shadow intensity */
+        transform: scale(50%);
     }
 
     .stara {
