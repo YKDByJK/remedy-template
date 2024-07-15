@@ -82,3 +82,10 @@ animation: moveCloudfromr 60s linear infinite;
         animation: moveCloudfromr 30s linear infinite;
     }
 }
+
+.hero-img {
+
+    filter: drop-shadow(0px 0px 35px rgba(0, 0, 0, 0.178));
+    border-radius: 20%;
+
+}
