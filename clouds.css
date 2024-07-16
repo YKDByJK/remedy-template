@@ -102,7 +102,6 @@ animation: moveCloudfromr 60s linear infinite;
   .zoomable-image {
     width: 40%;
     transition: transform 0.3s ease;
-    filter: drop-shadow(0px 0px 35px rgba(0, 0, 0, 0.178));
   }
   
   .zoomable-image.zoomed {
@@ -110,13 +109,13 @@ animation: moveCloudfromr 60s linear infinite;
     transform: scale(1.1); /* Adjust the scale as needed */
     transition: transform 0.3s ease;
     position: relative;
+    filter: drop-shadow(0px 0px 35px rgba(0, 0, 0, 0.178));
   }
   
   @media (max-width: 600px) {
     .zoomable-image {
       width: 100%;
       border-radius: 10%;
-      filter: drop-shadow(0px 0px 35px rgba(0, 0, 0, 0.178));
     }
   }
 
