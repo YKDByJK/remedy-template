@@ -102,6 +102,9 @@ animation: moveCloudfromr 60s linear infinite;
   .zoomable-image {
     width: 40%;
     transition: transform 0.3s ease;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
   }
   
   .zoomable-image.zoomed {
@@ -119,12 +122,7 @@ animation: moveCloudfromr 60s linear infinite;
     }
   }
 
-  .center {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-  }
+ 
   
   
   
