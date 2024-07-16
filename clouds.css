@@ -113,7 +113,8 @@ animation: moveCloudfromr 60s linear infinite;
   
   @media (max-width: 600px) {
     .zoomable-image {
-      width: 100%;
+      width: 90%;
+      border-radius: 10;
     }
   }
   
