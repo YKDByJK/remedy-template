@@ -93,8 +93,17 @@
                     <h2>Race Details</h2>
 
                     <p>In each one of the drop-boxes is the information related to the question!</p>
-               
+
+                    </div>
+                    
                     <div class="accordion">
+                        <div class="a-container">
+                            <p class="a-btn">what will the trail look like? <span></span></p>
+                            <div class="a-panel">
+                                <img src="https://res.cloudinary.com/dwtj2mccy/image/upload/v1721162834/IMG_9669_sahyn2.jpg" alt="Zoomable Image" class="zoomable-image">
+                              <p>The path will be Loop B, following this order of points: 9, 7, 6, 5, 3, 2, 6, 7, 9. We will have brochures and guides at the event!!<br></p>
+                            </div>
+                          </div>
                         <div class="a-container">
                           <p class="a-btn">When & Where is the 5k? <span></span></p>
                           <div class="a-panel">
@@ -307,5 +316,12 @@
     document.addEventListener('gestureend', function(event) {
         event.preventDefault();
     });</script>
+    <script>document.addEventListener('DOMContentLoaded', function() {
+        const image = document.querySelector('.zoomable-image');
+        image.addEventListener('click', function() {
+          this.classList.toggle('zoomed');
+        });
+      });
+      </script>
 </body>
 </html>

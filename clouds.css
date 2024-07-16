@@ -89,3 +89,33 @@ animation: moveCloudfromr 60s linear infinite;
     border-radius: 20%;
 
 }
+
+.image-container {
+    display: inline-block;
+    position: relative;
+    overflow: hidden;
+    cursor: grab;
+    width: 100%;
+    max-width: 500px; /* Adjust as needed */
+  }
+  
+  .zoomable-image {
+    width: 40%;
+    transition: transform 0.3s ease;
+  }
+  
+  .zoomable-image.zoomed {
+    cursor: grab;
+    transform: scale(1.1); /* Adjust the scale as needed */
+    transition: transform 0.3s ease;
+    position: relative;
+  }
+  
+  @media (max-width: 600px) {
+    .zoomable-image {
+      width: 40%;
+    }
+  }
+  
+  
+  
