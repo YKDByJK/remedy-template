@@ -255,14 +255,8 @@ h1, h2, h3, h4, h5, h6 {
 
   #features {
     padding: 0 0 $spacing-xxl 0;
-
-    .img-left {
-      width: 100%;
-      display: block;
-      max-width: 500px;
-      margin-right: auto;
-    }
   }
+   
 
   @media all and (max-width: $screen-sm) {
     #features {
