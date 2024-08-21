@@ -129,6 +129,11 @@ animation: moveCloudfromr 60s linear infinite;
   .sponsor-section {
     text-align: center;
    
+    justify-content: center; /* Centers horizontally */
+    align-items: center; /* Centers vertically */
+    
+  
+   
    
 }
 
@@ -159,7 +164,8 @@ animation: moveCloudfromr 60s linear infinite;
     display: inline-block;
     margin: 10px;
     transform: scale(50%);
-    justify-content: center;
+   
+    
 }
 
 .large-sponsors .sponsor img {
