@@ -126,5 +126,77 @@ animation: moveCloudfromr 60s linear infinite;
 
  
   
-  
+  .sponsor-section {
+    text-align: center;
+   
+   
+}
+
+.sponsor-category1 {
+    margin-bottom: 30px;
+    background-color: rgb(200, 171, 6);
+    border-radius: 20px; /* Rounded corners */
+    box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.3); /* Horizontal offset, Vertical offset, Blur radius, Color */
+}
+.sponsor-category2 {
+    margin-bottom: 30px;
+    background-color: silver;
+    border-radius: 20px; /* Rounded corners */
+    box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.3); /* Horizontal offset, Vertical offset, Blur radius, Color */
+}
+.sponsor-category3 {
+    margin-bottom: 30px;
+    background-color: rgb(219, 163, 90);
+    border-radius: 15px; /* Rounded corners */
+    box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.3); /* Horizontal offset, Vertical offset, Blur radius, Color */
+}
+.sponsor {
+    display: inline-block;
+    margin: 10px;
+    
+}
+.sponsor1 {
+    display: inline-block;
+    margin: 10px;
+    transform: scale(50%);
+    justify-content: center;
+}
+
+.large-sponsors .sponsor img {
+    width: 200px; /* Adjust width for $200 sponsors */
+    height: auto;
+    border-radius: 15px; /* Rounded corners */
+   
+}
+
+.medium-sponsors .sponsor img {
+    width: 100px; /* Adjust width for $100 sponsors */
+    height: auto;
+    border-radius: 15px; /* Rounded corners */
+}
+
+.text-sponsors p {
+    font-size: 18px;
+    margin: 5px 0;
+    color: #333;
+    font-weight: bold;
+    font-style: italic;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .large-sponsors .sponsor img {
+        width: 150px;
+    }
+
+    .medium-sponsors .sponsor img {
+        width: 75px;
+    }
+}
+
+/* Universal rounded corners for all sponsor logos */
+.sponsor img {
+    border-radius: 15px; /* Rounded corners */
+}
+
   
