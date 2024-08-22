@@ -157,12 +157,12 @@ animation: moveCloudfromr 60s linear infinite;
 }
 .sponsor {
     display: inline-block;
-    margin: 10px;
+    
     transform: scale(110%);
 }
 .sponsor1 {
     display: inline-block;
-    margin: 10px;
+  
     transform: scale(40%);
    
     
@@ -170,7 +170,7 @@ animation: moveCloudfromr 60s linear infinite;
  .sponsor2
 {
     display: inline-block;
-    margin: 10px;
+    
     transform: scale(20%);
    left:-20px;
     
