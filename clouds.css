@@ -172,7 +172,7 @@ animation: moveCloudfromr 60s linear infinite;
     display: inline-block;
     margin: 10px;
     transform: scale(20%);
-   float: center;
+   left:-20px;
     
 }
 
