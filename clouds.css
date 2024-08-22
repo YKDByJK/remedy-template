@@ -195,9 +195,14 @@ animation: moveCloudfromr 60s linear infinite;
         width: 150px;
     }
 
-    .medium-sponsors .sponsor img {
-        width: 75px;
-    }
+  
+    .sponsor1 {
+    display: inline-block;
+    margin: 10px;
+    transform: scale(40%);
+   
+    
+}
 }
 
 /* Universal rounded corners for all sponsor logos */
