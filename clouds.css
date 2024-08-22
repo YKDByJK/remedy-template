@@ -161,11 +161,13 @@ animation: moveCloudfromr 60s linear infinite;
     transform: scale(110%);
 }
 .sponsor1 {
-    display: inline-block;
-  margin:10px;
-    transform: scale(40%);
-   
+    display: block;
+    margin: 0 auto; /* Center the block element */
+    transform: scale(0.4); /* Scale down to 20% of original size */
+    position: relative; /* Allow the left property to take effect */
+    left: -20px; /* Optional: Adjust left position slightly */
     
+    /* Add any additional styling you need */
 }
 .sponsor2 {
     display: block;
@@ -173,7 +175,7 @@ animation: moveCloudfromr 60s linear infinite;
     transform: scale(0.25); /* Scale down to 20% of original size */
     position: relative; /* Allow the left property to take effect */
     left: -20px; /* Optional: Adjust left position slightly */
-    padding-bottom:-10px;
+
     /* Add any additional styling you need */
 }
 
