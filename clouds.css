@@ -169,7 +169,7 @@ animation: moveCloudfromr 60s linear infinite;
     display: inline-block;
     margin:10px;
     transform: scale(50%);
-    left:-20px;
+    left:20px;
 }
 
 .large-sponsors .sponsor img {
