@@ -176,7 +176,7 @@ animation: moveCloudfromr 60s linear infinite;
 
 .large-sponsors .sponsor img {
     width: 100px; /* Adjust width for $200 sponsors */
-    height: auto;
+    height: 100p;
     border-radius: 15px; /* Rounded corners */
    
 }
