@@ -158,7 +158,7 @@ animation: moveCloudfromr 60s linear infinite;
 .sponsor {
     display: inline-block;
     margin:30px;
-    transform:scale(130%)
+    transform:scale(140%)
    
 }
 
@@ -203,6 +203,7 @@ animation: moveCloudfromr 60s linear infinite;
         width: 100px; /* Adjust width for $200 sponsors */
         height: 100p;
         border-radius: 15px; /* Rounded corners */
+        margin:20px
        
     }
     
