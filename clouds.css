@@ -162,7 +162,7 @@ animation: moveCloudfromr 60s linear infinite;
 }
 .sponsor1 {
     display: block;
-    margin: 0 auto; /* Center the block element */
+   /* Center the block element */
     transform: scale(0.4); /* Scale down to 20% of original size */
     position: relative; /* Allow the left property to take effect */
     left: -20px; /* Optional: Adjust left position slightly */
@@ -171,7 +171,7 @@ animation: moveCloudfromr 60s linear infinite;
 }
 .sponsor2 {
     display: block;
-    margin: 0 auto; /* Center the block element */
+     /* Center the block element */
     transform: scale(0.25); /* Scale down to 20% of original size */
     position: relative; /* Allow the left property to take effect */
     left: -20px; /* Optional: Adjust left position slightly */
@@ -209,7 +209,7 @@ animation: moveCloudfromr 60s linear infinite;
   
     .sponsor1 {
     display: block;
-    margin: 0 auto; /* Center the block element */
+     /* Center the block element */
     transform: scale(40%); /* Scale down to 20% of original size */
     position: relative; /* Allow the left property to take effect */
     left: -20px; /* Optional: Adjust left position slightly */
