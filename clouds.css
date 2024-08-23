@@ -162,30 +162,20 @@ animation: moveCloudfromr 60s linear infinite;
    
 }
 
-.sponsor1 {
-    display: inline-block;
-    
-    transform: scale(50%);
-}
-.sponsor2 {
-    display: inline-block;
-    
-    transform: scale(40%);
-    
-}
+
 
 .large-sponsors .sponsor img {
-    width: 100px; /* Adjust width for $200 sponsors */
-    height: 100p;
+    width: 200px; /* Adjust width for $200 sponsors */
+    height: auto;
     border-radius: 15px; /* Rounded corners */
    
 }
 
 .medium-sponsors .sponsor img {
-    width: 100px; /* Adjust width for $100 sponsors */
+    width: 150px; /* Adjust width for $100 sponsors */
     height: auto;
     border-radius: 15px; /* Rounded corners */
-    filter: drop-shadow(5px 5px 35px rgba(0, 0, 0, 0.178));
+   
 
 }
 
@@ -209,6 +199,20 @@ animation: moveCloudfromr 60s linear infinite;
         transform: scale(50%);
     }
 
+    .large-sponsors .sponsor img {
+        width: 100px; /* Adjust width for $200 sponsors */
+        height: 100p;
+        border-radius: 15px; /* Rounded corners */
+       
+    }
+    
+    .medium-sponsors .sponsor img {
+        width: 100px; /* Adjust width for $100 sponsors */
+        height: auto;
+        border-radius: 15px; /* Rounded corners */
+        filter: drop-shadow(5px 5px 35px rgba(0, 0, 0, 0.178));
+    
+    }
 }
 
 /* Universal rounded corners for all sponsor logos */
