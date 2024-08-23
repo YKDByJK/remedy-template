@@ -161,22 +161,9 @@ animation: moveCloudfromr 60s linear infinite;
     transform: scale(110%);
 }
 .sponsor1 {
-    display: block;
-   /* Center the block element */
-    transform: scale(0.4); /* Scale down to 20% of original size */
-    position: relative; /* Allow the left property to take effect */
-    left: -20px; /* Optional: Adjust left position slightly */
-    bottom:30px;
-    /* Add any additional styling you need */
-}
-.sponsor2 {
-    display: block;
-     /* Center the block element */
-    transform: scale(0.25); /* Scale down to 20% of original size */
-    position: relative; /* Allow the left property to take effect */
-    left: -30px; /* Optional: Adjust left position slightly */
-bottom:30px;
-    /* Add any additional styling you need */
+    display: inline-block;
+    margin:10px;
+    transform: scale(30%);
 }
 
 .large-sponsors .sponsor img {
@@ -207,14 +194,7 @@ bottom:30px;
     }
 
   
-    .sponsor1 {
-    display: block;
-     /* Center the block element */
-    transform: scale(40%); /* Scale down to 20% of original size */
-    position: relative; /* Allow the left property to take effect */
-    left: -20px; /* Optional: Adjust left position slightly */
-    /* Add any additional styling you need */
-}
+
 }
 
 /* Universal rounded corners for all sponsor logos */
