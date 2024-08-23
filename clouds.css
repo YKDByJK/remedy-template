@@ -157,8 +157,8 @@ animation: moveCloudfromr 60s linear infinite;
 }
 .sponsor {
     display: inline-block;
-    margin:30px;
-    transform:scale(140%)
+    margin:40px;
+    transform:scale(110%)
    
 }
 
@@ -188,22 +188,23 @@ animation: moveCloudfromr 60s linear infinite;
 }
 
 /* Responsive adjustments */
-@media (max-width: 700px) {
+@media (max-width: 600px) {
     .large-sponsors .sponsor img {
         width: 150px;
     }
 
-    .sponsor1 {
+    .sponsor {
         display: inline-block;
-        
-        transform: scale(50%);
+        margin:20px;
+        transform:scale(110%)
+       
     }
 
     .large-sponsors .sponsor img {
-        width: 100px; /* Adjust width for $200 sponsors */
-        height: 100p;
+        width: 150px; /* Adjust width for $200 sponsors */
+        height: 200p;
         border-radius: 15px; /* Rounded corners */
-        margin:20px
+        
        
     }
     
