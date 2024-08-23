@@ -126,15 +126,11 @@ animation: moveCloudfromr 60s linear infinite;
 
  
   
-  .sponsor-section {
+.sponsor-section {
     text-align: center;
-   
+    display: flex;
     justify-content: center; /* Centers horizontally */
     align-items: center; /* Centers vertically */
-    
-  
-   
-   
 }
 
 .sponsor-category1 {
@@ -143,53 +139,45 @@ animation: moveCloudfromr 60s linear infinite;
     border-radius: 20px; /* Rounded corners */
     box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.3); /* Horizontal offset, Vertical offset, Blur radius, Color */
 }
+
 .sponsor-category2 {
     margin-bottom: 30px;
     background-color: silver;
     border-radius: 20px; /* Rounded corners */
     box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.3); /* Horizontal offset, Vertical offset, Blur radius, Color */
 }
+
 .sponsor-category3 {
     margin-bottom: 30px;
     background-color: rgb(219, 163, 90);
     border-radius: 15px; /* Rounded corners */
     box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.3); /* Horizontal offset, Vertical offset, Blur radius, Color */
 }
+
 .sponsor {
     display: inline-block;
-    margin:10px;
+    margin: 10px;
     transform: scale(110%);
 }
-.sponsor1 {
-    display: block;
-    margin: 0 auto; /* Center the block element */
-    transform: scale(0.4); /* Scale down to 20% of original size */
-    position: relative; /* Allow the left property to take effect */
-    left: -20px; /* Optional: Adjust left position slightly */
-    
-    /* Add any additional styling you need */
-}
-.sponsor2 {
-    display: block;
-    margin: 0 auto; /* Center the block element */
-    transform: scale(0.25); /* Scale down to 20% of original size */
-    position: relative; /* Allow the left property to take effect */
-    left: -20px; /* Optional: Adjust left position slightly */
 
-    /* Add any additional styling you need */
+.sponsor1, .sponsor2 {
+    display: inline-block; /* Changed to inline-block for better control */
+    margin: 0; /* Remove any default margin */
+    padding: 0; /* Remove any default padding */
+    vertical-align: top; /* Align the top edges of the elements */
+    position: relative; /* Retain position property */
+    left: -20px; /* Optional: Adjust left position slightly */
+    transform: scale(0.4); /* Keep scaling as required */
 }
 
 .large-sponsors .sponsor img {
     width: 200px; /* Adjust width for $200 sponsors */
     height: auto;
-    border-radius: 15px; /* Rounded corners */
-   
 }
 
 .medium-sponsors .sponsor img {
-    width: 50px; /* Adjust width for $100 sponsors */
+    width: 100px; /* Adjust width for $100 sponsors */
     height: auto;
-    border-radius: 15px; /* Rounded corners */
 }
 
 .text-sponsors p {
@@ -206,15 +194,13 @@ animation: moveCloudfromr 60s linear infinite;
         width: 150px;
     }
 
-  
-    .sponsor1 {
-    display: block;
-    margin: 0 auto; /* Center the block element */
-    transform: scale(40%); /* Scale down to 20% of original size */
-    position: relative; /* Allow the left property to take effect */
-    left: -20px; /* Optional: Adjust left position slightly */
-    /* Add any additional styling you need */
-}
+    .medium-sponsors .sponsor img {
+        width: 75px;
+    }
+
+    .sponsor1, .sponsor2 {
+        transform: scale(0.4); /* Adjust scaling for mobile */
+    }
 }
 
 /* Universal rounded corners for all sponsor logos */
