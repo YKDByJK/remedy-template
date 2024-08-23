@@ -175,7 +175,7 @@ animation: moveCloudfromr 60s linear infinite;
     transform: scale(0.25); /* Scale down to 20% of original size */
     position: relative; /* Allow the left property to take effect */
     left: -30px; /* Optional: Adjust left position slightly */
-bottom:-20px;
+bottom:20px;
     /* Add any additional styling you need */
 }
 
