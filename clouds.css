@@ -168,8 +168,8 @@ animation: moveCloudfromr 60s linear infinite;
 .sponsor2 {
     display: inline-block;
     margin:10px;
-    transform: scale(50%);
-    left:20px;
+    transform: scale(40%);
+    
 }
 
 .large-sponsors .sponsor img {
@@ -199,7 +199,12 @@ animation: moveCloudfromr 60s linear infinite;
         width: 150px;
     }
 
-  
+  .sponsor2 {
+    display: inline-block;
+    margin:10px;
+    transform: scale(40%);
+    left:20px;
+}
 
 }
 
