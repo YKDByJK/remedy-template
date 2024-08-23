@@ -157,32 +157,36 @@ animation: moveCloudfromr 60s linear infinite;
 }
 .sponsor {
     display: inline-block;
-    margin:10px;
-    transform: scale(110%);
+    margin:30px;
+    transform:scale(130%)
+   
 }
+
 .sponsor1 {
     display: inline-block;
-    margin:10px;
+    
     transform: scale(50%);
 }
 .sponsor2 {
     display: inline-block;
-    margin:10px;
+    
     transform: scale(40%);
     
 }
 
 .large-sponsors .sponsor img {
-    width: 200px; /* Adjust width for $200 sponsors */
+    width: 100px; /* Adjust width for $200 sponsors */
     height: auto;
     border-radius: 15px; /* Rounded corners */
    
 }
 
 .medium-sponsors .sponsor img {
-    width: 50px; /* Adjust width for $100 sponsors */
+    width: 100px; /* Adjust width for $100 sponsors */
     height: auto;
     border-radius: 15px; /* Rounded corners */
+    filter: drop-shadow(5px 5px 35px rgba(0, 0, 0, 0.178));
+
 }
 
 .text-sponsors p {
@@ -194,17 +198,16 @@ animation: moveCloudfromr 60s linear infinite;
 }
 
 /* Responsive adjustments */
-@media (max-width: 768px) {
+@media (max-width: 700px) {
     .large-sponsors .sponsor img {
         width: 150px;
     }
 
-  .sponsor2 {
-    display: inline-block;
-    margin:10px;
-    transform: scale(40%);
-    left:20px;
-}
+    .sponsor1 {
+        display: inline-block;
+        
+        transform: scale(50%);
+    }
 
 }
 
