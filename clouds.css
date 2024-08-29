@@ -173,7 +173,7 @@ animation: moveCloudfromr 60s linear infinite;
 }
 
 .medium-sponsors .sponsor img {
-    width: 150px; /* Adjust width for $100 sponsors */
+    width: 200px; /* Adjust width for $100 sponsors */
     height: auto;
     border-radius: 15px; /* Rounded corners */
    margin: 10px;
@@ -210,7 +210,7 @@ animation: moveCloudfromr 60s linear infinite;
     }
     
     .medium-sponsors .sponsor img {
-        width: 100px; /* Adjust width for $100 sponsors */
+        width: 200px; /* Adjust width for $100 sponsors */
         height: auto;
         border-radius: 15px; /* Rounded corners */
         filter: drop-shadow(5px 5px 35px rgba(0, 0, 0, 0.178));
